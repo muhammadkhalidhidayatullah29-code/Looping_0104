@@ -34,3 +34,11 @@ void PilihJurusan() {
             statusKuota = "Error: Kode Tidak Valid";
     }
 }
+
+void output() {
+    input();
+    PilihJurusan();
+    output();
+
+    return 0;
+}
